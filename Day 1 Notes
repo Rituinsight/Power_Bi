@@ -1,0 +1,79 @@
+## 📊 Power BI — Day 1 Notes
+
+### 1. What is Power BI?
+
+**Power BI** is a Microsoft Business Intelligence and data visualization tool used to **connect, clean, analyze, visualize, and share data**.
+
+### 2. Why is Power BI used?
+
+A Data Analyst uses Power BI to:
+
+* Convert raw data into useful information
+* Create interactive dashboards
+* Track KPIs
+* Find trends and patterns
+* Generate business insights
+* Present data in an easy-to-understand way
+
+### 3. Power BI Components
+
+**Power BI Desktop** → Create reports and dashboards
+**Power BI Service** → Publish, share, and collaborate
+**Power BI Mobile** → View reports on mobile
+**Power Query** → Clean and transform data
+**DAX** → Create calculations and measures
+
+### 4. Data Sources
+
+Power BI can connect to:
+
+* Excel
+* CSV
+* SQL Server
+* MySQL
+* Web
+* SharePoint
+* Other databases
+
+### 5. Basic Power BI Workflow
+
+**Get Data → Clean Data → Transform Data → Model Data → Create DAX → Visualize → Dashboard → Share**
+
+### 6. Important Terms
+
+**Dataset:** Collection of data used for analysis.
+
+**Table:** Data arranged in rows and columns.
+
+**Column:** A field/attribute in a table.
+
+**Measure:** A DAX calculation used for analysis.
+
+**Visual:** Charts, cards, tables, graphs, etc.
+
+**Dashboard:** A visual summary of important information.
+
+**KPI:** Key Performance Indicator used to measure performance.
+
+### 📝 Day 1 Practical Task
+
+Use your **Customer Shopping CSV/Excel dataset**.
+
+1. Open **Power BI Desktop**
+2. Click **Home → Get Data**
+3. Select **Excel/CSV**
+4. Select your dataset
+5. Click **Load**
+6. Explore the **Data view**
+7. Check columns and data types
+8. Create your first **Card**
+9. Save the file as:
+   **Customer_Shopping_Dashboard.pbix**
+
+### 🎯 Day 1 Goal
+
+By the end of Day 1, you should understand:
+
+**Power BI → Data → Power Query → Data Model → DAX → Visuals → Dashboard**
+
+Tomorrow, **Day 2 = Power Query + Data Cleaning**.
