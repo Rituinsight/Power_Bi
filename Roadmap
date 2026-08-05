@@ -1,0 +1,61 @@
+# Power_Bi
+Absolutely! Since you're learning **Data Analytics**, Power BI is one of the most important tools to learn.
+
+### 📊 What is Power BI?
+
+**Power BI** is a **Business Intelligence and Data Visualization tool by Microsoft**.
+
+It helps you:
+
+* Import data from **Excel, CSV, SQL, etc.**
+* Clean and transform data
+* Analyze data
+* Create **interactive dashboards and reports**
+* Find trends and insights
+* Share business reports
+
+**Simple Data Analyst pipeline:**
+
+`Excel/CSV → Power Query → Data Model → DAX → Visualizations → Dashboard → Insights`
+
+### 🚀 7-Day Power BI Strategy
+
+| Day       | Learn                       | Practice                           |
+| --------- | --------------------------- | ---------------------------------- |
+| **Day 1** | Power BI basics + interface | Import Excel/CSV                   |
+| **Day 2** | **Power Query**             | Clean missing/duplicate data       |
+| **Day 3** | Data modeling               | Relationships, tables, cardinality |
+| **Day 4** | **DAX basics**              | SUM, COUNT, AVERAGE, CALCULATE     |
+| **Day 5** | Visualizations              | Cards, charts, slicers, tables     |
+| **Day 6** | Dashboard design            | Create a complete dashboard        |
+| **Day 7** | Project + interview prep    | Finish project + explain insights  |
+
+### 🎯 Your 7-day project
+
+Create a **Customer Shopping Dashboard**.
+
+**KPIs:**
+
+* Total Sales
+* Total Customers
+* Total Orders
+* Average Order Value
+
+**Charts:**
+
+* Sales by Category
+* Sales by Gender
+* Sales by Age Group
+* Sales by Location
+* Monthly Sales Trend
+* Payment Method
+
+**Day 7 goal:** You should be able to say in an interview:
+
+
+
+
+
+
+
+If you want, I can also give you the **Power BI 7-day strategy with Day 1 → Day 7 notes + practical tasks + exact DAX measures**.
