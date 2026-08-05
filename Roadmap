@@ -53,7 +53,51 @@ Create a **Customer Shopping Dashboard**.
 **Day 7 goal:** You should be able to say in an interview:
 
 
-
+                 DATA ANALYTICS WITH POWER BI
+                           │
+                           ▼
+              ┌─────────────────────┐
+              │     DATA SOURCES     │
+              │ Excel | CSV | SQL   │
+              └──────────┬──────────┘
+                         ▼
+              ┌─────────────────────┐
+              │     POWER QUERY     │
+              │ Clean & Transform   │
+              │ Remove duplicates   │
+              │ Handle blanks       │
+              │ Change data types   │
+              └──────────┬──────────┘
+                         ▼
+              ┌─────────────────────┐
+              │    DATA MODELING    │
+              │ Tables + Relations  │
+              └──────────┬──────────┘
+                         ▼
+              ┌─────────────────────┐
+              │        DAX          │
+              │ Measures & KPIs     │
+              │ SUM | COUNT | AVG   │
+              │ CALCULATE           │
+              └──────────┬──────────┘
+                         ▼
+              ┌─────────────────────┐
+              │   VISUALIZATION     │
+              │ Cards | Charts      │
+              │ Slicers | Tables    │
+              └──────────┬──────────┘
+                         ▼
+              ┌─────────────────────┐
+              │     DASHBOARD       │
+              │ Sales | Customers   │
+              │ Profit | Trends     │
+              └──────────┬──────────┘
+                         ▼
+              ┌─────────────────────┐
+              │   BUSINESS INSIGHT  │
+              │ Find trends & make  │
+              │ better decisions    │
+              └─────────────────────┘
 
 
 
