@@ -1,0 +1,115 @@
+## 📊 Power BI — Day 2 Notes
+
+### Topic: Power Query & Data Cleaning
+
+### 1. What is Power Query?
+
+**Power Query** is a data transformation tool inside Power BI used to **clean, transform, and prepare raw data** before analysis.
+
+**Simple flow:**
+
+`Raw Data → Power Query → Clean Data → Data Model → Dashboard`
+
+### 2. Why do we clean data?
+
+Raw data may contain:
+
+* Duplicate rows
+* Blank/null values
+* Wrong data types
+* Spelling mistakes
+* Unnecessary columns
+* Extra spaces
+* Incorrect dates
+
+### 3. How to open Power Query
+
+In **Power BI Desktop**:
+
+**Home → Transform Data → Transform Data**
+
+This opens the **Power Query Editor**.
+
+### 4. Important Data Cleaning Operations
+
+#### 🔹 Remove Duplicates
+
+Select column/table → **Right Click → Remove Duplicates**
+
+#### 🔹 Remove Blank Rows
+
+**Home → Remove Rows → Remove Blank Rows**
+
+#### 🔹 Change Data Type
+
+Select column → **Data Type**
+
+Examples:
+
+* Customer ID → Whole Number
+* Sales → Decimal Number
+* Date → Date
+* Customer Name → Text
+
+#### 🔹 Rename Column
+
+Double-click the column name and enter a meaningful name.
+
+Example:
+
+`cust_name` → `Customer Name`
+
+#### 🔹 Remove Unnecessary Columns
+
+Select column → **Right Click → Remove**
+
+#### 🔹 Replace Values
+
+**Transform → Replace Values**
+
+Example:
+
+`M` → `Male`
+
+`F` → `Female`
+
+#### 🔹 Trim Extra Spaces
+
+**Transform → Format → Trim**
+
+Useful when names or categories contain unwanted spaces.
+
+### 5. Applied Steps
+
+Power Query automatically records your cleaning actions under **Applied Steps**.
+
+Example:
+
+`Source → Promoted Headers → Changed Type → Removed Duplicates → Trimmed Text`
+
+This is very important because you can go back and modify previous steps.
+
+### 🛠️ Day 2 Practical Task
+
+Continue your **Customer Shopping Dashboard** dataset.
+
+Clean your data by:
+
+1. Open **Transform Data**
+2. Check all column names
+3. Check data types
+4. Remove duplicate records
+5. Remove blank rows
+6. Remove unnecessary columns
+7. Trim text columns
+8. Replace incorrect values
+9. Check date columns
+10. Click **Close & Apply**
+
+### 🎯 Day 2 Goal
+
+By the end of today, you should be able to explain:
+
+> **“Power Query is used in Power BI to clean and transform raw data before creating visualizations and reports.”**
+
+**Day 3 → Data Modeling + Relationships** 🔗
