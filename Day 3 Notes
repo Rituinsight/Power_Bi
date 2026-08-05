@@ -1,0 +1,108 @@
+## 📊 Power BI — Day 3 Notes
+
+### Topic: Data Modeling & Relationships
+
+### 1. What is Data Modeling?
+
+**Data Modeling** means connecting different tables so Power BI can analyze them together.
+
+Example:
+
+```text
+Customer Table
+Customer_ID
+Customer_Name
+      │
+      │ Customer_ID
+      ▼
+Sales Table
+Order_ID
+Customer_ID
+Product_ID
+Sales
+```
+
+### 2. Why Data Modeling is Important?
+
+It helps you:
+
+* Connect multiple tables
+* Avoid duplicate data
+* Create accurate calculations
+* Build better dashboards
+* Analyze data across different tables
+
+### 3. Relationships
+
+Common relationship types:
+
+**1 : 1** → One-to-One
+**1 : Many** → One-to-Many ⭐ Most common
+**Many : Many** → Many-to-Many
+
+Example:
+
+```text
+Customers (1) ───────── (*) Orders
+```
+
+One customer can have **many orders**.
+
+### 4. Primary Key & Foreign Key
+
+**Primary Key (PK):** Unique ID in a table.
+
+Example:
+`Customer_ID`
+
+**Foreign Key (FK):** ID used to connect another table.
+
+Example:
+`Customer_ID` in Orders.
+
+```text
+Customers
+Customer_ID (PK)
+      │
+      │
+      ▼
+Orders
+Customer_ID (FK)
+```
+
+### 5. Star Schema ⭐
+
+A common Power BI model:
+
+```text
+              Customers
+                  │
+                  │
+Products ─── Sales ─── Date
+                  │
+                  │
+             Locations
+```
+
+**Sales = Fact Table**
+**Customers, Products, Date = Dimension Tables**
+
+### 🛠️ Day 3 Practical Task
+
+In your Customer Shopping project:
+
+1. Open **Model View**
+2. Check your tables
+3. Identify primary/foreign keys
+4. Create relationships
+5. Check relationship direction/cardinality
+6. Use **1-to-Many** where appropriate
+7. Save your `.pbix` file
+
+### 🎯 Day 3 Goal
+
+Remember:
+
+**Data → Power Query → Data Model → Relationships → DAX → Visuals → Dashboard**
+
+**Tomorrow: Day 4 → DAX + Measures + KPI Cards.**
